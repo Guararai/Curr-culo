@@ -1,2 +1,2 @@
 # Currículo
-https://guararai.github.io/Curr-culo/
+https://guararai.github.io/Curriculo/
