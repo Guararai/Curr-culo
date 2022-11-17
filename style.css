@@ -305,11 +305,11 @@ a img.aligncenter {
 -------------------------------------------------------------------*/
 
 .navbar-dark{
-	background: #ffffff;
+	background: #2c2f33;
 }
 
 .navbar-dark .navbar-nav .nav-link{
-	color: #241c65;
+	color: #ffffff;
 	letter-spacing: 1px;
 	font-size: 14px;
 	position: relative;
@@ -319,7 +319,7 @@ a img.aligncenter {
 }
 .navbar-dark .navbar-nav .nav-link.active{
 	color: #ffffff;
-	background: #241c65;
+	background: #111213;
 }
 .navbar-dark .navbar-nav .nav-link::before {
     content: '';
@@ -329,7 +329,7 @@ a img.aligncenter {
 	width: 100%;
 	top: 50%;
 	left: 0;
-	background-color: #241c65;
+	background-color: #23272a;
 	-webkit-transform: translateY(-50%);
 	-ms-transform: translateY(-50%);
 	transform: translateY(-50%);
@@ -458,8 +458,7 @@ xclip
 #mainNav.navbar-shrink {
     padding-top: 10px;
     padding-bottom: 10px;
-    background-color: #ffffff;
-	border-bottom: 4px solid #171717;
+    background-color: 	#2c2f33;
 }
 
 #clouds{
@@ -498,11 +497,11 @@ xclip
 }
 
 .section.wb {
-    background-color: #ffffff;
+    background-color: #23272a;
 }
 
 .section.lb {
-    background-color: #f2f3f5;
+    background-color: #23272a;
 }
 
 .section.db {
@@ -648,7 +647,7 @@ xclip
 
 .services-inner-box{
 	padding: 15px;
-	background: #ffffff;
+	background:#23272a;
 	margin-bottom: 30px;
 	position: relative;
 }
@@ -2231,7 +2230,7 @@ select.mobile-device {
 
 .copyrights {
     border-top: 1px dashed rgba(255, 255, 255, 0.1);
-    background-color: #ffffff;
+    background-color: #2c2f33;
     box-sizing: border-box;
     width: 100%;
     text-align: left;
@@ -2382,7 +2381,7 @@ select.mobile-device {
 }
 
 .dmtop:hover{
-	background: #241c65;
+	background: #111213;
 }
 
 .icon_wrap {
@@ -2535,3 +2534,87 @@ select.mobile-device {
     border-color: rgba(255, 255, 255, 0.6);
     color: rgba(255, 255, 255, 0.6);
 }
+
+/*Guararai*/
+
+.section.lb{
+    background-color:#23272a;
+}
+
+.btn-hover-lt{
+    background-color:#23272a;
+}
+
+.btn-hover-lt::before{
+    background-color: 	#2c2f33;
+}
+
+.btn-hover-lt:hover::before {
+    background-color: 	#111213 ;
+    
+}
+
+body{
+background-color:#2c2f33 ;
+}
+form {
+    box-sizing: border-box;
+    display: block;
+}
+
+.form {
+  
+    padding: 20px;
+    display: block;
+    border-radius: 10px;
+
+
+
+}
+.roww{
+    display: block;
+}
+input[type=text],
+input[type=tel],
+input[type=email],
+select,
+textarea {
+    width: 100%;
+    display: block;
+    padding: 12px;
+    text-align: center;
+    background-color: #23272a;
+    border: 1px solid rgba(54, 46, 48, 0.8);
+    border-radius: 25px;
+    resize: vertical;
+   
+}
+
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+    color: #ffff;
+  
+}
+
+input[type=submit] {
+    background-color: #2c2f33;
+    color: white;
+    border: none;
+    cursor: pointer;
+    float: right;
+  
+}
+
+input[type=submit]:hover {
+    background-color: #111213;
+ 
+}
+.containerr {
+    display: block;
+    width: 80%;
+    margin: auto;
+    font-size: 110%;
+    text-align: center;
+}
+
