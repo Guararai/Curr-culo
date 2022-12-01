@@ -1439,7 +1439,7 @@ hr.invis1 {
 }
 
 .filter-button-group button.active{
-	background: #241c65;
+	background: #111213;
 	color: #fff;
 	box-shadow: 2px 20px 45px 5px rgba(0,0,0,.2);	
 }
@@ -2618,3 +2618,9 @@ input[type=submit]:hover {
     text-align: center;
 }
 
+input{
+    color: white;
+}
+h3{
+    color: white;
+}
